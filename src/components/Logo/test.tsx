@@ -10,7 +10,7 @@ describe('<Logo />', () => {
     // selecionar o elemento a ser testado 'screen' (queries) - getByLabel...
     // expect - assertion - asserção - comparação - análise (espero que renderize a logo branca)
     renderWithTheme(<Logo />)
-    expect(screen.getByLabelText(/Loyalty/i).parentElement).toHaveStyle({
+    expect(screen.getByLabelText(/Cardy/i).parentElement).toHaveStyle({
       color: '#FAFAFA'
     })
   })
@@ -20,7 +20,7 @@ describe('<Logo />', () => {
     // selecionar o elemento a ser testado 'screen' (queries) - getByLabel...
     // expect - assertion - asserção - comparação - análise (espero que renderize a logo branca)
     renderWithTheme(<Logo color="black" />)
-    expect(screen.getByLabelText(/Loyalty/i).parentElement).toHaveStyle({
+    expect(screen.getByLabelText(/Cardy/i).parentElement).toHaveStyle({
       color: '#030517'
     })
   })
@@ -30,7 +30,7 @@ describe('<Logo />', () => {
     // selecionar o elemento a ser testado 'screen' (queries) - getByLabel...
     // expect - assertion - asserção - comparação - análise (espero que renderize a logo branca)
     renderWithTheme(<Logo />)
-    expect(screen.getByLabelText(/Loyalty/i).parentElement).toHaveStyle({
+    expect(screen.getByLabelText(/Cardy/i).parentElement).toHaveStyle({
       width: '11.3rem'
     })
   })
@@ -40,7 +40,7 @@ describe('<Logo />', () => {
     // selecionar o elemento a ser testado 'screen' (queries) - getByLabel...
     // expect - assertion - asserção - comparação - análise (espero que renderize a logo branca)
     renderWithTheme(<Logo size="large" />)
-    expect(screen.getByLabelText(/Loyalty/i).parentElement).toHaveStyle({
+    expect(screen.getByLabelText(/Cardy/i).parentElement).toHaveStyle({
       width: '20rem'
     })
   })
@@ -50,7 +50,7 @@ describe('<Logo />', () => {
     // selecionar o elemento a ser testado 'screen' (queries) - getByLabel...
     // expect - assertion - asserção - comparação - análise (espero que renderize a logo branca)
     renderWithTheme(<Logo hideOnMobile />)
-    expect(screen.getByLabelText(/Loyalty/i).parentElement).toHaveStyleRule(
+    expect(screen.getByLabelText(/Cardy/i).parentElement).toHaveStyleRule(
       'width',
       '5.9rem',
       {

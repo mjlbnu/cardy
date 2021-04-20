@@ -16,7 +16,7 @@ const Logo = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="Loyalty"
+      aria-label="Cardy"
       viewBox="0 0 929 275"
     >
       <g filter="url(#filter0_d)">

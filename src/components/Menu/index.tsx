@@ -9,20 +9,20 @@ import * as S from './styles'
 const Menu = () => (
   <S.Wrapper>
     <S.IconWrapper>
-      <MenuIcon />
+      <MenuIcon aria-label="Open menu" />
     </S.IconWrapper>
     <S.LogoWrapper>
       <Logo hideOnMobile />
     </S.LogoWrapper>
     <S.MenuGroup>
       <S.IconWrapper>
-        <PeopleSearchIcon />
+        <PeopleSearchIcon aria-label="Search client" />
       </S.IconWrapper>
       <S.IconWrapper>
-        <PeopleAddIcon />
+        <PeopleAddIcon aria-label="Add client" />
       </S.IconWrapper>
       <S.IconWrapper>
-        <CardMembershipIcon />
+        <CardMembershipIcon aria-label="Card membership" />
       </S.IconWrapper>
     </S.MenuGroup>
   </S.Wrapper>
