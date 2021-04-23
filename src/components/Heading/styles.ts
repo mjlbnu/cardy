@@ -12,10 +12,11 @@ const wrapperModifiers = {
   lineBottom: (theme: DefaultTheme) => css`
     position: relative;
     margin-bottom: ${theme.spacings.medium};
+
     &::after {
       position: absolute;
       left: 0;
-      bottom: -1rem;
+      bottom: -0.5rem;
       content: '';
       width: 5rem;
       border-bottom: 0.5rem solid ${theme.colors.primary};
