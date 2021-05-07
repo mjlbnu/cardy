@@ -5,14 +5,33 @@ import Footer from '.'
 
 describe('<Footer />', () => {
   it('should render 4 columns topics', () => {
+    const { container } = renderWithTheme(<Footer />)
+
     // contact
-    renderWithTheme(<Footer />)
-    expect(screen.getByText(/contact/i)).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', {
+        name: /contact/i
+      })
+    ).toBeInTheDocument()
     // follow us
-    expect(screen.getByText(/follow us/i)).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', {
+        name: /follow us/i
+      })
+    ).toBeInTheDocument()
     // links
-    expect(screen.getByText(/links/i)).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', {
+        name: /links/i
+      })
+    ).toBeInTheDocument()
     // location
-    expect(screen.getByText(/location/i)).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', {
+        name: /location/i
+      })
+    ).toBeInTheDocument()
+
+    expect(container.firstChild).toMatchSnapshot()
   })
 })
