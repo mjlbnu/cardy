@@ -15,23 +15,21 @@ const wrapperModifiers = {
 export const Wrapper = styled.div<CardItemProps>`
   ${({ theme, color, size }) => css`
     color: ${theme.colors[color!]};
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     ${!!size && wrapperModifiers[size]}
   `}
 `
 
-export const Box = styled.div`
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-`
-
 export const Date = styled.h4`
   ${({ theme }) => css`
-    color: ${theme.colors.primary};
+    color: ${theme.colors.black};
     font-size: ${theme.font.sizes.xsmall};
-    padding: 1rem;
+    padding-top: 0.5rem;
   `}
 `
