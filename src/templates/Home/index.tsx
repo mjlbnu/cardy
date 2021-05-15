@@ -16,24 +16,40 @@ const Home = ({ items }: HomeTemplateProps) => (
   <section>
     <Container>
       <Menu />
-      <Card2 items={items} />
+    </Container>
+
+    <S.SectionCard>
+      <Container>
+        <S.SectionThis>
+          <Heading lineLeft lineColor="secondary" color="black">
+            This is Cardy
+          </Heading>
+        </S.SectionThis>
+        <Card2 items={items} />
+      </Container>
+    </S.SectionCard>
+
+    <Container>
+      <S.SectionWhy>
+        <Heading lineLeft lineColor="secondary">
+          Why Cardy
+        </Heading>
+      </S.SectionWhy>
     </Container>
 
     <Container>
-      <Heading lineLeft lineColor="secondary" color="black">
-        Why Cardy
-      </Heading>
+      <S.SectionWho>
+        <Heading lineLeft lineColor="secondary">
+          Who’s Using Cardy
+        </Heading>
+      </S.SectionWho>
     </Container>
 
-    <Container>
-      <Heading lineLeft lineColor="secondary">
-        Who’s Using Cardy
-      </Heading>
-    </Container>
-
-    <Container>
-      <Footer />
-    </Container>
+    <S.SectionFooter>
+      <Container>
+        <Footer />
+      </Container>
+    </S.SectionFooter>
   </section>
 )
 
