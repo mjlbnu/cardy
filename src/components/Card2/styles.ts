@@ -2,9 +2,9 @@ import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
-    background: linear-gradient(135deg, #428bca, #5542ca);
-    max-width: 400px;
-    height: 250px;
+    background: linear-gradient(135deg, #5542ca, #06092b);
+    max-width: 425px;
+    height: 275px;
     margin: 0 auto;
     display: grid;
     gap: 0.2rem;

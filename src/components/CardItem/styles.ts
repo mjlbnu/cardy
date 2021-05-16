@@ -28,7 +28,7 @@ export const Wrapper = styled.div<CardItemProps>`
 
 export const Date = styled.h4`
   ${({ theme }) => css`
-    color: ${theme.colors.black};
+    color: ${theme.colors.white};
     font-size: ${theme.font.sizes.xsmall};
     padding-top: 0.5rem;
   `}
