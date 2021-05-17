@@ -19,13 +19,7 @@ export const SectionCard = styled(Sections)`
   ${({ theme }) => css`
     margin: ${theme.spacings.large} calc(-${theme.grid.gutter} / 2);
 
-    ${media.greaterThan('medium')`
-      margin: ${theme.spacings.large} 0;
-      position: relative;
-      z-index: ${theme.layers.base};
-    `}
-
-    ${media.lessThan('huge')`
+    ${media.lessThan('medium')`
       margin-right: calc(-${theme.grid.gutter} / 2);
       margin-left: calc(-${theme.grid.gutter} / 2);
     `}
@@ -40,7 +34,11 @@ export const SectionCard = styled(Sections)`
   `}
 `
 
-export const SectionThis = styled.section``
+export const SectionThis = styled.section`
+  ${({ theme }) => css`
+    margin-left: calc(${theme.grid.gutter} / 2);
+  `}
+`
 
 export const SectionWhy = styled(Sections)``
 
@@ -59,9 +57,6 @@ export const SectionFooter = styled.section`
       clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
     `}
 
-    ${media.lessThan('huge')`
     margin-right: calc(-${theme.grid.gutter} / 2);
-    margin-left: calc(-${theme.grid.gutter} / 2);
-  `}
   `}
 `
