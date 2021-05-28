@@ -11,8 +11,10 @@
 
 ![cardy](https://user-images.githubusercontent.com/46792997/117746735-42b85000-b1e3-11eb-8f37-f8f70724ef6b.png)
 
-This is a [Next.js](https://nextjs.org/) project that uses the boilerplate teached in a course called [React Avançado](https://reactavancado.com.br/).
 ![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
+<br>
+This is a [Next.js](https://nextjs.org/) project that uses the boilerplate teached in a course called [React Avançado](https://reactavancado.com.br/).
+
 ## What is inside?
 
 ⚡️🔥 This project uses lot of stuff as:
