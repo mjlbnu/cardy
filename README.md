@@ -1,3 +1,13 @@
+# cardy
+
+<p>
+  <img src="https://img.shields.io/badge/author-MARCIO%20JOSE%20LISBOA-6E40C9?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/mjlbnu/cardy?color=6E40C9&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/mjlbnu/cardy?color=6E40C9&style=flat-square">
+  <a href="https://opensource.org/licenses/MIT">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-6E40C9?style=flat-square">
+  </a>
+</p>
 
 ![cardy](https://user-images.githubusercontent.com/46792997/117746735-42b85000-b1e3-11eb-8f37-f8f70724ef6b.png)
 
@@ -59,7 +69,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Licence
 
+<a href="https://opensource.org/licenses/MIT">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-6E40C9?style=flat-square">
+</a>
+
 MIT © Cardy
 
 ---
-Made with 💜 by Marcio José Lisboa
+Made with :purple_heart: by [Marcio José Lisboa](https://www.programadorbr.com.br)
+
+[![Linkedin Badge](https://img.shields.io/badge/-Marcio%20José%20Lisboa-6E40C9?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mjlbnu/)](https://www.linkedin.com/in/mjlbnu/)
+[![Gmail Badge](https://img.shields.io/badge/-mjlbnu@gmail.com-6E40C9?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mjlbnu@gmail.com)](mailto:mjlbnu@gmail.com)
